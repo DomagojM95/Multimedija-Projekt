@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logo – Velebit projekt</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <div class="logo">🧩</div>
+          <div>
+            <div class="brand-title">Velebit</div>
+            <div class="brand-sub">Logo</div>
+          </div>
+        </div>
+
+        <nav class="menu">
+          <a href="index.html">Projekt</a>
+          <a href="galerija.html">Galerija</a>
+          <a href="video.html">Video</a>
+          <a href="zvuk.html">Zvuk</a>
+          <a href="logo.html">Logo</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <h2>Logo</h2>
+        <p class="muted">Logo je izrađen u Inkscapeu.</p>
+
+        <div class="card">
+          <p class="muted small">Datoteka: </p>
+
+          <div class="placeholder">
+            <img
+              src="media/logo.png"
+              alt="Logo"
+              class="logo-img"
+              onerror="this.style.display = 'none'"
+            />
+          </div>
+        </div>
+        <div class="card" style="margin-top: 14px">
+          <h3>Izrada logo-a</h3>
+
+          <p class="muted">
+            Za izradu logo-a koristio sam program <strong>Inkscape</strong>.
+            Nakon pokretanja programa otvorio sam novi dokument i uploadao fotografiju
+            koju sam koristio kao pozadinu logo-a. Fotografiju sam klikom
+            označio i povlačenjem miša prilagodio njezinu veličinu da ispuni
+            radni prostor.
+          </p>
+
+          <p class="muted">
+            Zatim sam pomoću alata za oblik i selekciju izrezao fotografiju u
+            <strong>oblik kruga</strong>. Nakon izrezivanja provjerio sam rubove
+            i dodatno prilagodio položaj slike unutar kruga kako bi izgledala
+            centrirano i uredno.
+          </p>
+
+          <p class="muted">
+            Nakon toga sam kliknuo na alat za tekst, upisao naziv
+            <strong>VELEBIT</strong> i ručno pomicao tekst mišem dok ga nisam
+            postavio na gornji dio kruga. Podesio sam veličinu fonta i razmak
+            slova kako bi tekst bio čitljiv i dobro uklopljen u logo.
+          </p>
+
+          <p class="muted">
+            Nakon što sam uploadao siluetu planinara, kliknuo sam na nju kako
+            bih je označio. Pomoću alata za selekciju sam precizno izrezao
+            siluetu, uklonio višak pozadine oko lika i ostavio samo oblik
+            čovjeka s ruksakom. Zatim sam provjerio rubove izrezane siluete i
+            dodatno ih prilagodio kako bi izgledali čisto i uredno.
+          </p>
+
+          <p class="muted">
+            Nakon izrezivanja sam promijenio boju siluete kako bi se jasno
+            isticala u odnosu na pozadinsku fotografiju. Siluetu sam zatim
+            povlačenjem miša smanjio i postavio u donji dio kruga,
+            prilagođavajući njezinu poziciju dok se vizualno nije dobro uklopila
+            u ostatak logo-a.
+          </p>
+
+          <p class="muted">
+            Kada sam bio zadovoljan konačnim izgledom, spojio sam sve elemente u
+            jednu cjelinu i završni logo
+            <strong>exportao kao PNG datoteku</strong> za korištenje na web
+            stranici projekta.
+          </p>
+        </div>
+
+        <div class="card" style="margin-top: 14px">
+          <h3>Priprema loga (Inkscape)</h3>
+          <p class="muted small">
+            Koraci izrade vektorskog logo-a.
+          </p>
+
+          <div class="gallery">
+            <img class="gimg" src="media/logo_step1.jpeg" alt="Logo korak 1" />
+            <img class="gimg" src="media/logo_step2.jpeg" alt="Logo korak 2" />
+            <img class="gimg" src="media/logo_step3.jpeg" alt="Logo korak 2" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="modal" class="modal">
+      <span id="closeModal" class="close">×</span>
+      <img id="modalImg" class="modal-img" alt="Pregled slike" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
