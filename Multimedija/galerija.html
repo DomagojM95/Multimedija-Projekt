@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galerija – Velebit projekt</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container nav">
+    <div class="brand">
+      <div class="logo">⛰️</div>
+      <div>
+        <div class="brand-title">Velebit</div>
+        <div class="brand-sub">Galerija fotografija</div>
+      </div>
+    </div>
+
+    <nav class="menu">
+      <a href="index.html">Projekt</a>
+      <a href="galerija.html">Galerija</a>
+      <a href="video.html">Video</a>
+      <a href="zvuk.html">Zvuk</a>
+      <a href="logo.html">Logo</a>
+
+    </nav>
+  </div>
+</header>
+
+<section class="section alt">
+  <div class="container">
+    <h2>Galerija</h2>
+    <p class="muted">
+        Klikni na sliku za uvećanje.
+    </p>
+
+    <div class="gallery">
+      <img class="gimg" src="media/img1.jpg" alt="Velebit 1">
+      <img class="gimg" src="media/img2.jpg" alt="Velebit 2">
+      <img class="gimg" src="media/img3.jpg" alt="Velebit 3">
+      <img class="gimg" src="media/img4.jpg" alt="Velebit 4">
+      <img class="gimg" src="media/img5.jpg" alt="Velebit 5">
+      <img class="gimg" src="media/img6.jpg" alt="Velebit 6">
+    </div>
+
+   
+
+
+<div class="card" style="margin-top:14px;">
+  <h3>Postupak pri izradi fotografija (GIMP)</h3>
+
+  <p class="muted">
+    Nakon što sam otvorio fotografiju u programu <strong>GIMP</strong>, kliknuo sam
+    desni klik na sloj te ga duplicirao kako bih zadržao originalnu verziju slike.
+  </p>
+
+  <p class="muted">
+    Zatim sam u gornjem izborniku otvorio karticu <em>Colours</em> te odabrao opciju
+    <em>Brightness-Contrast</em> i <em>Levels</em>, pomoću kojih sam prilagodio
+    svjetlinu i kontrast fotografije.
+  </p>
+
+  <p class="muted">
+    Nakon toga sam koristio opciju <em>Curves</em> kako bih dodatno podesio tonove slike
+    i dobio prirodniji prijelaz između svijetlih i tamnih dijelova fotografije.
+  </p>
+
+  <p class="muted">
+    U sljedećem koraku sam po potrebi izrezao fotografiju pomoću alata za
+    <em>Crop</em>, kako bih uklonio nepotrebne dijelove kadra i naglasio glavni motiv.
+  </p>
+
+  <p class="muted">
+    Zatim sam u kartici <em>Colours</em> prilagodio zasićenost boja koristeći opciju
+    <em>Saturation</em>, pri čemu sam pazio da boje ostanu realne i prirodne.
+  </p>
+
+  <p class="muted">
+    Na pojedinim fotografijama sam dodatno prilagodio balans bijele boje kako bi
+    svi kadrovi imali sličan ton i atmosferu.
+  </p>
+
+  <p class="muted">
+    Nakon obrade boja dodao sam blago izoštravanje slike pomoću opcije
+    <em>Sharpen</em>, kako bi se detalji poput rubova planina i staza jasnije vidjeli.
+  </p>
+
+  <p class="muted">
+    Kao završni korak smanjio sam rezoluciju fotografija te ih exportao u
+    <strong>JPG/PNG</strong> format, prilagođen za prikaz na web stranici.
+  </p>
+</div>
+  <div class="gallery">
+    <img class="gimg" src="media/ps1.jpeg" alt="Photoshop korak 1">
+    <img class="gimg" src="media/ps2.jpeg" alt="Photoshop korak 2">
+    <img class="gimg" src="media/ps3.jpeg" alt="Photoshop korak 3">
+  </div>
+</div>
+</div>
+</section>
+
+
+<div id="modal" class="modal">
+  <span id="closeModal" class="close">×</span>
+  <img id="modalImg" class="modal-img" alt="Pregled slike">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zvuk – Velebit projekt</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container nav">
+    <div class="brand">
+      <div class="logo">🎙️</div>
+      <div>
+        <div class="brand-title">Velebit</div>
+        <div class="brand-sub">Audio zapis</div>
+      </div>
+    </div>
+
+    <nav class="menu">
+      <a href="index.html">Projekt</a>
+      <a href="galerija.html">Galerija</a>
+      <a href="video.html">Video</a>
+      <a href="zvuk.html">Zvuk</a>
+      <a href="logo.html">Logo</a>
+
+    </nav>
+  </div>
+</header>
+
+<section class="section alt">
+  <div class="container">
+    <h2>Audio </h2>
+    <p class="muted">
+      Audio je snimljen i obrađen u Audacityju.
+    </p>
+
+    <div class="card">
+      <audio controls class="media-box">
+        <source src="media/zvuk.mp3" type="audio/mpeg">
+        Tvoj preglednik ne podržava audio.
+      </audio>
+     
+    </div>
+
+   <div class="card" style="margin-top:14px;">
+  <h3>Obrada zvuka (Audacity)</h3>
+
+  <p class="muted">
+    Za izradu audio zapisa koristio sam program <strong>Audacity</strong>. Nakon pokretanja programa
+    otvorio sam novi projekt i  uploadao audio snimku u radni prostor.
+    Snimku sam klikom označio i provjerio trajanje te osnovnu glasnoću.
+  </p>
+
+  <p class="muted">
+    Zatim sam mišem označio dijelove snimke koje nisam htio zadržati i obrisao ih, kako bi audio bio kraći
+    i sadržavao samo bitne dijelove. Pritom sam pazio da prijelazi između dijelova zvuče prirodno.
+  </p>
+
+  <p class="muted">
+    Nakon rezanja sam otvorio izbornik za efekte i primijenio <em>Noise Reduction</em> kako bih smanjio
+    pozadinski šum iz snimke. Postupak sam ponovio dok zvuk nije postao čišći i ugodniji za slušanje.
+  </p>
+
+  <p class="muted">
+    U sljedećem koraku sam uploadao dodatnu pozadinsku melodiju i postavio je ispod glavne snimke. Melodiju
+    sam smanjio kako ne bi bila glasnija od govora te sam dodao <strong>fade in</strong> na početku i
+    <strong>fade out</strong> na kraju kako bi prijelaz bio postepen i prirodan.
+  </p>
+
+  <p class="muted">
+    Zatim sam koristio opciju za normalizaciju glasnoće kako bi cijela snimka imala ujednačenu razinu zvuka.
+    Po potrebi sam dodatno prilagodio glasnoću pojedinih dijelova kako bi završni rezultat bio uravnotežen.
+  </p>
+
+  <p class="muted">
+    Kada sam bio zadovoljan konačnim rezultatom, otvorio sam opciju za spremanje i audio zapis exportao kao
+    <strong>MP3</strong> datoteku, spremnu za korištenje na web stranici projekta.
+  </p>
+</div>
+    <div class="card" style="margin-top:14px;">
+  <h3>Priprema audio zapisa (Audacity)</h3>
+  <p class="muted small">
+    Screenshoti obrade zvuka .
+  </p>
+
+  <div class="gallery">
+    <img class="gimg" src="media/audio_edit1.jpeg" alt="Audio korak 1">
+    <img class="gimg" src="media/audio_edit2.jpeg" alt="Audio korak 2">
+    <img class="gimg" src="media/audio_edit3.jpeg" alt="Audio korak 2">
+  </div>
+</div>
+  </div>
+</section>
+
+</body>
+</html>
